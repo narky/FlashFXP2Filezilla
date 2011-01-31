@@ -1,0 +1,10 @@
+FlashFXP站点导出转换为Filezilla站点XML导入文件
+
+开发工具：
+Python 2.54
+wxPython 2.8.11
+wxFormBuilder
+
+问题：
+1.直接导入ftp文件会产生乱码，需要手动将FlashFXP导出的ftp文件转为UTF-8编码
+2.不支持Sites.dat导入
