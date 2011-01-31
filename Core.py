@@ -13,10 +13,7 @@ __version__ = '1.0'
 
 from xml2dict.xml2dict import XML2Dict
 from Temlpate import fileTemplate,serverTemplate,folderTemplate
-from Lang import _Lang
-import locale
-
-_L = _Lang[locale.getdefaultlocale()[0]]
+from Lang import _L
 
 def writeFilezillaXmlFile(dict, filename='Filezilla.xml'):
 	try:

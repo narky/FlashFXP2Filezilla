@@ -62,3 +62,10 @@ _Lang = {
 		"about_close":						u"  OK  ",
 	},
 }
+
+import locale
+_L = {}
+if _Lang.has_key(locale.getdefaultlocale()[0]):
+	_L = _Lang[locale.getdefaultlocale()[0]]
+else:
+	_L = _Lang["en_US"]

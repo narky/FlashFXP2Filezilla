@@ -7,10 +7,7 @@ __version__ = '1.0'
 
 import wx
 import wx.html
-from Lang import _Lang
-import locale
-
-_L = _Lang[locale.getdefaultlocale()[0]]
+from Lang import _L
 
 class AboutDialog ( wx.Dialog ):
 

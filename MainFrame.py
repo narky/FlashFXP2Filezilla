@@ -8,11 +8,8 @@
 
 import wx
 import os
-import locale
 import Core
-from Lang import _Lang
-
-_L = _Lang[locale.getdefaultlocale()[0]]
+from Lang import _L
 
 # 拖放文件实现
 class MyFileDropTarget(wx.FileDropTarget):#声明释放到的目标
